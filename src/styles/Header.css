@@ -1,0 +1,568 @@
+.title {
+  width: 10rem;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  width: 25px;
+  margin-top: 3.5rem;
+  position: absolute;
+  right: 15px;
+}
+
+.titleSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.searchBar {
+  background-color: #f43444;
+  padding: 15px;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+.searchInput>input {
+  width: 700px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+input {
+  text-indent: 25px;
+}
+
+.skeleton {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+  max-width: 1130px;
+  margin: auto;
+  padding: 25px 0 25px 0;
+}
+
+.card {
+  width: calc(33.333% - 15px);
+  height: auto;
+  background: #78b45c;
+  padding: 20px;
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.know-more {
+  color: white;
+  background-color: #c0c46c;
+  width: 105px;
+  height: 30px;
+  margin-top: auto;
+  border-radius: 25px;
+  font-size: 10px;
+}
+
+.card>* {
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.card>p {
+  display: inline-block;
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contents {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+.label {
+  display: flex;
+}
+
+.label>* {
+  background: #c0c46c;
+  color: white;
+  padding: 4px 15px;
+  border-radius: 25px;
+  font-size: 11px;
+  margin: 10px 10px 0 0;
+}
+
+
+.card h1 {
+  font-size: 26px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.contents .content-text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.contents img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card>:nth-child(2) {
+  text-align: right;
+  font-size: 20px;
+}
+
+.details-card {
+  width: 60%;
+  min-height: 25rem;
+  height: auto;
+  background-color: #78b45c;
+  margin: 100px auto;
+  border-radius: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.details-card h1 {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
+.details-card p {
+  color: white;
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.details-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-image>img {
+  width: 250px;
+}
+
+.details-content>:nth-child(6),
+.details-content>:nth-child(8) {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0 0 0;
+
+}
+
+.height-weight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+
+}
+
+.height-weight>* {
+  width: calc(50% - 10px); 
+  border-radius: 5px;
+  background-color: #c0c46c;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.stats > * {
+  width: calc(50% - 10px); 
+  border-radius: 5px;
+  
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.ability{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+.ability>*{
+  width: calc(50% - 10px); 
+  border-radius: 5px;
+  background-color: #c0c46c;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+
+}
+
+
+.evolution {
+  position: absolute;
+  left: 20%;
+  width: 60%;
+}
+
+.evolution-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.evolution>h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.evolution-img :nth-child(1) {
+  margin: 50px 0 0 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.evolution-img :nth-child(2) {
+  margin: 90px 75px 0 100px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.evolution-img :nth-child(3) {
+  margin: 20px 75px 0 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.evolution-img :nth-child(4) {
+  margin: 90px 75px 0 30px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.evolution-img :nth-child(5) {
+  margin: 0 0 0 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.evolution-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    width: 20px;
+    margin-top: 2rem;
+    right: 10px;
+  }
+
+  .searchInput>input {
+    width: 100%;
+    height: 40px;
+  }
+  .searchBar{
+    height: 45px;
+  }
+  .card {
+    width: calc(50% - 10px);
+  }
+
+  .details-card {
+    width: 90%;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .details-image>img {
+    width: 200px;
+  }
+  .evolution {
+    left: auto;
+    width: 100%;
+  }
+
+  .evolution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .evolution-img {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .evolution-img :nth-child(1) {
+    margin: 50px 0 0 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .evolution-img :nth-child(2) {
+    margin: 55px 5px 0 25px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .evolution-img :nth-child(3) {
+    margin: 25px 25px 0 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .evolution-img :nth-child(4) {
+    margin: 55px 25px 0 0;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .evolution-img :nth-child(5) {
+    margin: 0 0 0 20px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    width: 18px;
+    margin-top: 1.5rem;
+  }
+
+  .search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchInput>input {
+    width: 90%;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .details-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .details-image>img {
+    width: 180px;
+  }
+
+  .evolution {
+    left: auto;
+    width: 100%;
+  }
+
+  .evolution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .evolution-img {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .evolution-img :nth-child(1) {
+    margin: 50px 0 0 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .evolution-img :nth-child(2) {
+    margin: 55px 5px 0 25px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .evolution-img :nth-child(3) {
+    margin: 25px 25px 0 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .evolution-img :nth-child(4) {
+    margin: 55px 25px 0 0;
+
+    width: 40px;
+    height: 40px;
+  }
+
+  .evolution-img :nth-child(5) {
+    margin: 0 0 0 20px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    width: 8rem;
+    margin: 10px auto;
+  }
+
+  .menu {
+    width: 16px;
+    right: 5px;
+  }
+
+  .searchInput>input {
+    width: 100%;
+    height: 35px;
+  }
+
+  .searchBar {
+    padding: 10px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .card h1 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .details-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .details-image>img {
+    width: 150px;
+  }
+
+  .evolution>h1 {
+    font-size: 24px;
+  }
+
+  .evolution-img img {
+    width: 60px;
+    height: 60px;
+    
+  }
+  .evolution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .evolution-img {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .evolution-img :nth-child(1) {
+    margin: 50px 0 0 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .evolution-img :nth-child(2) {
+    margin: 55px 5px 0 25px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .evolution-img :nth-child(3) {
+    margin: 25px 25px 0 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .evolution-img :nth-child(4) {
+    margin: 55px 25px 0 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .evolution-img :nth-child(5) {
+    margin: 0 0 0 20px;
+    width: 120px;
+    height: 120px;
+  }
+}
